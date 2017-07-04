@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers");
+
+#navbar-content a {
+  /*font-family: 'Bangers', sans-serif;*/
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.navbar {
+  border-radius: 0px;
+  background-color: #757575;
+  border: 0px;
+}
+
+#banner {
+  background-color: #607d8b;
+}
+
+#logo {
+  height: 135px;
+  padding: 3px;
+}
+
+#content-heading {
+  background-color: #303030;
+  width: 100%;
+  color: white;
+}
+
+#archive {
+
+}
+
+img.menu-image {
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.description {
+  margin-left: 20px;
+}
+
+p.title {
+  font-size: 20px;
+}
+
+p.contributor {
+  font-family: 'Times New Roman', serif;
+}
+
+.heading-divider {
+  border-bottom: 3px solid black;
+  margin-bottom: 20px;
+}
+
+.divider {
+  border-bottom: 1px solid black;
+  margin-left: 35%;
+  margin-bottom: 25px;
+  width: 35%
+}

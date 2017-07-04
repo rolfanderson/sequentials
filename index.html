@@ -3,36 +3,168 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <title>Trace Sequentials Journal</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="shortcut icon" href="img/favicon2.ico" type="image/x-icon">
   </head>
+
   <body>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10">
-          <img id="logo" src="img/sequentials-logo.png" class="img-responsive">
-        </div>
-      </div>
+    <div id="banner" class="container-fluid text-center">
+      <img id="logo" href="index.html" src="img/sequentials-logo.png" class="img-fluid">
     </div>
 
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
-        <ul class="nav navbar-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Submit</a></li>
-          <li><a href="#">Past Issues</a></li>
-        </ul>
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-content">
+          <ul class="nav navbar-nav">
+            <li class="navlinks"><a href="index.html">Home</a></li>
+            <li class="navlinks"><a href="about.html">About</a></li>
+            <li class="navlinks"><a href="contact.html">Contact</a></li>
+            <li class="navlinks"><a href="submit.html">Submissions</a></li>
+            <li class="navlinks"><a href="issues.html"></a></li>
+          </ul>
+        </div>
       </div>
     </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-1">
+              <h2>Issue 1</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1 heading-divider">
+              <h3>The General Forum</h3>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <img src="img/dolan-general-thumbnail.png" class="menu-image"></img>
+              <p class="title">How Wimmelbooks Work: A Snail’s Guide</p>
+              <p class="contributor">Elys Dolan, Cambridge School of Art, Anglia Ruskin University, United Kingdom</p>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <img src="img/picard-general-thumbnail.png" class="menu-image"></img>
+              <p class="title">Art Reviews in Comic Form</p>
+              <p class="contributor">Coco Picard, Independent Artist</p>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1 heading-divider">
+              <h3>Postmodernism: Visualizing a Movement</h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <img src="img/gavaler-pomo-thumbnail.png" class="menu-image"></img>
+              <p class="title">This Is Not Marilyn: The Dailies</p>
+              <p class="contributor">Chris Gavaler, Washington and Lee University</p>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <img src="img/gatta-pomo-thumbnail.png" class="menu-image"></img>
+              <p class="title">The Popular as Postmodern in Michael Moorcock’s Early Work</p>
+              <p class="contributor">Nicolas Labarre, University Bordeaux Montaigne, France</p>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <img src="img/labarre-pomo-thumbnail.png" class="menu-image"></img>
+              <p class="title">Resurfacing</p>
+              <p class="contributor">Oriana Gatta, Indiana University of Pennsylvania</p>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <img src="img/davies-pomo-thumbnail.png" class="menu-image"></img>
+              <p class="title">Comics, the Postmodern, and the Magical Real</p>
+              <p class="contributor">Paul Davies, University of Sussex</p>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <img src="img/duncan-pomo-thumbnail.png" class="menu-image"></img>
+              <p class="title">The Classical Side of Post-Modern Architecture: The Jacksonville, FL Public Library</p>
+              <p class="contributor">David Allan Duncan and Stephen Wagner, Savannah College of Art and Design</p>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <img src="img/chaney-thumbnail.png" class="menu-image"></img>
+              <p class="title">Polysemy Express</p>
+              <p class="contributor">Michael Chaney, Dartmouth College</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <div id="archive">
+            <h3>Archive</h3>
+            <li><a href="index.html">Issue 1</a></li>
+            <li>Issue 2</li>
+            <li>Issue 3</li>
+            <li>Issue 4</li>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>
-
-
 </html>
