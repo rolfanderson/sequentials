@@ -19,6 +19,7 @@
 #logo {
   height: 135px;
   padding: 3px;
+  margin: 0 auto;
 }
 
 #content-heading {
@@ -43,7 +44,7 @@ img.menu-image {
 }
 
 p.title {
-  font-size: 20px;
+  font-size: 1.5em;
 }
 
 p.contributor {
