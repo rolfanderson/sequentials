@@ -1,0 +1,27 @@
+.navbar-default {
+  margin-bottom: 0;
+}
+
+#navbar-content a {
+  color: black;
+}
+
+.article-background {
+  background-color: #757575;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.panel {
+  padding-top: 20;
+}
+
+.divider {
+  border-bottom: 1px solid white;
+}

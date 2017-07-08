@@ -1,15 +1,42 @@
-@import url("https://fonts.googleapis.com/css?family=Bangers");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+p {
+
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: black;
+  margin-top: 0;
+}
+
+a:hover, h4:hover {
+  color: #607d8b;
+  text-decoration: none;
+}
+
+h5 {
+  font-family: 'Times New Roman', serif;
+}
 
 #navbar-content a {
-  /*font-family: 'Bangers', sans-serif;*/
   font-size: 16px;
   color: #ffffff;
 }
 
-.navbar {
+.navbar-inverse {
   border-radius: 0px;
   background-color: #757575;
   border: 0px;
+  margin-bottom: 0;
 }
 
 #banner {
@@ -28,37 +55,37 @@
   color: white;
 }
 
-#archive {
+#archive {}
 
+.image-column {
+  padding-left: 10px;
+}
+
+.text-column {
+  padding: 0;
 }
 
 img.menu-image {
-  width: 180px;
+  width: 90%;
   float: left;
-  margin-right: 15px;
-  margin-bottom: 15px;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
-.description {
-  margin-left: 20px;
-}
-
-p.title {
-  font-size: 1.5em;
-}
-
-p.contributor {
-  font-family: 'Times New Roman', serif;
+.issue-heading {
+  padding-left: 10;
 }
 
 .heading-divider {
-  border-bottom: 3px solid black;
+  border-bottom: 2px solid #757575;
   margin-bottom: 20px;
+  padding-left: 10px;
 }
 
 .divider {
   border-bottom: 1px solid black;
   margin-left: 35%;
-  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-bottom: 40px;
   width: 35%
 }
