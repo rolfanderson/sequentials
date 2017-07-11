@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/articles.css">
     <link rel="shortcut icon" href="img/favicon2.ico" type="image/x-icon">
@@ -28,33 +29,39 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-        <div class="collapse navbar-collapse" id="navbar-content">
+        <div class="collapse navbar-collapse sticky-nav" id="navbar-content">
           <ul class="nav navbar-nav">
-            <li class="navlinks"><a href="index.html">Home</a></li>
-            <li class="navlinks"><a href="about.html">About</a></li>
-            <li class="navlinks"><a href="contact.html">Contact</a></li>
-            <li class="navlinks"><a href="submit.html">Submissions</a></li>
-            <li class="navlinks"><a href="issues.html"></a></li>
+            <li class="navlinks"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;&nbsp;Home</a></li>
+            <li class="navlinks"><a href="about.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>&nbsp;&nbsp;About</a></li>
+            <li class="navlinks"><a href="contact.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;&nbsp;Contact</a></li>
+            <li class="navlinks"><a href="submit.html"><span class="glyphicon glyphicon-inbox" aria-hidden="true"></span>&nbsp;&nbsp;Submissions</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span>&nbsp;&nbsp;Archive
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="index.html">Issue 1</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container-fluid article-background">
+    <div class="container-fluid article-background content">
       <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-10 col-md-offset-1 comic-wrapper">
           <h1>Art Reviews in Comic Form</h1>
           <p>Coco Picard, Independent Artist</p>
           <p>Posted: 6 June 2017</p>
 
-          <img class="img-responsive panel" src="picard/3-picard_samplecomics_2016.jpg"></img>
-          <img class="img-responsive panel" src="picard/3-picard_samplecomics_20161.jpg"></img>
-          <img class="img-responsive panel" src="picard/3-picard_samplecomics_20162.jpg"></img>
+          <img class="img-responsive panel center" src="img/picard/3-picard_samplecomics_2016.jpg"></img>
+          <img class="img-responsive panel center" src="img/picard/3-picard_samplecomics_20161.jpg"></img>
+          <img class="img-responsive panel center" src="img/picard/3-picard_samplecomics_20162.jpg"></img>
 
         </div>
       </div>
       <div class="divider"></div>
       <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-10 col-md-offset-1 info-wrapper">
           <p>Caroline Picard is an artist, writer, publisher, and curator who explores the
           figure in relation to systems of power. Publishing under the names Caroline
           Picard and Coco Picard, her art writing has appeared in publications like Art21,
@@ -74,7 +81,7 @@
       <div class="divider"></div>
 
       <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-10 col-md-offset-1 info-wrapper">
           <p>Recommended citations:</p>
           <p>Picard, Coco. “The Nomadic Body: Rebecca Beachy at New Capital.” Sequentials, no. 1, 2017.</p>
 

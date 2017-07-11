@@ -1,31 +1,45 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 
 p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
 
 }
 
-h1 {}
-
-h2 {}
-
-h3 {}
+h3 {
+  font-family: 'Oswald', sans-serif;
+}
 
 h4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Crete Round', serif;
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 1.7em;
   color: black;
   margin-top: 0;
 }
 
 a:hover, h4:hover {
-  color: #607d8b;
+  color: #0288D1;
   text-decoration: none;
 }
 
 h5 {
   font-family: 'Times New Roman', serif;
+  font-size: 1.2em;
 }
+
+/**** Navbar ****/
 
 #navbar-content a {
   font-size: 16px;
@@ -37,6 +51,29 @@ h5 {
   background-color: #757575;
   border: 0px;
   margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #424242;
+    color: #ffffff;
+}
+
+.dropdown-toggle:active, .open .dropdown-toggle {
+        background: #424242 !important;
+        color: #ffffff !important;
+    }
+
+.dropdown-menu {
+  background-color: #EEEEEE;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #ffffff;
+  color: #0288D1 !important;
+}
+
+.dropdown-menu a {
+  color: black !important;
 }
 
 #banner {
@@ -55,7 +92,7 @@ h5 {
   color: white;
 }
 
-#archive {}
+/**** Homepage ****/
 
 .image-column {
   padding-left: 10px;
@@ -88,4 +125,23 @@ img.menu-image {
   margin-top: 20px;
   margin-bottom: 40px;
   width: 35%
+}
+
+#archive {
+
+}
+
+#archive li {
+    display: block;
+}
+
+#archive li:before {
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e165";
+    font-family: 'Glyphicons Halflings';
+    font-size: 6px;
+    float: left;
+    margin-top: 6px;
+    margin-right: 5px;
+    color: #000000;
 }
