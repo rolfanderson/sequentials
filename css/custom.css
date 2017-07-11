@@ -23,7 +23,7 @@ h3 {
 
 h4 {
   font-family: 'Crete Round', serif;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.7em;
   color: black;
   margin-top: 0;
@@ -86,16 +86,14 @@ h5 {
   margin: 0 auto;
 }
 
-#content-heading {
-  background-color: #303030;
-  width: 100%;
-  color: white;
-}
-
 /**** Homepage ****/
 
+.row {
+  margin-left: 0;
+}
+
 .image-column {
-  padding-left: 10px;
+  padding-left: 0px;
 }
 
 .text-column {
@@ -110,25 +108,37 @@ img.menu-image {
 }
 
 .issue-heading {
-  padding-left: 10;
+  padding-left: 0;
+}
+
+.subheading {
+  padding-left: 0;
 }
 
 .heading-divider {
   border-bottom: 2px solid #757575;
   margin-bottom: 20px;
-  padding-left: 10px;
+  padding-left: 0px;
 }
 
 .divider {
   border-bottom: 1px solid black;
-  margin-left: 35%;
-  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
   margin-bottom: 40px;
   width: 35%
 }
 
-#archive {
+#about {
+  padding-bottom: 30px;
+}
 
+#archive .heading-divider {
+  border-bottom: 2px solid #757575;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 0px;
 }
 
 #archive li {
@@ -144,4 +154,13 @@ img.menu-image {
     margin-top: 6px;
     margin-right: 5px;
     color: #000000;
+}
+
+#submissions {
+  padding-bottom: 30px;
+}
+
+#submissions li {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
 }
