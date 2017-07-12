@@ -73,15 +73,22 @@ h5 {
 
 .dropdown-menu {
   background-color: #EEEEEE;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 .dropdown-menu > li > a:hover {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
   color: #0288D1 !important;
 }
 
 .dropdown-menu a {
   color: black !important;
+  background-color: #eeeeee !important;
+}
+
+ul.navbar-nav {
+  margin-bottom: 0;
 }
 
 #banner {
@@ -95,6 +102,11 @@ h5 {
 }
 
 /**** Homepage ****/
+
+.content {
+  margin-top: 0px;
+  padding-bottom: 50px;
+}
 
 .row {
   margin-right: 0;
