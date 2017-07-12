@@ -108,10 +108,6 @@ img.menu-image {
   margin-bottom: 0;
 }
 
-.issue-heading {
-  padding-left: 0;
-}
-
 .subheading {
   padding-left: 0;
 }
@@ -137,7 +133,6 @@ img.menu-image {
 
 #archive .heading-divider {
   border-bottom: 2px solid #757575;
-  padding-top: 10px;
   margin-bottom: 10px;
   padding-left: 0px;
 }
