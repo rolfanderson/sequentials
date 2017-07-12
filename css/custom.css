@@ -75,6 +75,7 @@ h5 {
   background-color: #EEEEEE;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  border-bottom: 3px solid #757575 !important;
 }
 
 .dropdown-menu > li > a:hover, a:focus {
