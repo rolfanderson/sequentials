@@ -48,6 +48,10 @@ p {
   padding-bottom: 5px;
 }
 
+.info-wrapper a {
+  color: #42A5F5;
+}
+
 .panel {
   margin-top: 20px;
 }
