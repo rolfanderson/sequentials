@@ -53,6 +53,14 @@ h5 {
   margin-bottom: 0;
 }
 
+.navbar-toggle {
+  border-color: white !important;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: white;
+}
+
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     background-color: #424242;
     color: #ffffff;
