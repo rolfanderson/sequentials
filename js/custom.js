@@ -11,10 +11,6 @@ $(document).ready(function () {
             $('.navbar').removeClass('navbar-fixed-top');
             $('.content').removeClass('menu-padding');
         }
-
-
     }
-
     document.onscroll = scroll;
-
 });

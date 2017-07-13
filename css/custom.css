@@ -37,7 +37,7 @@ a:hover, h4:hover {
 
 h5 {
   font-family: 'Tinos', serif;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: 500;
 }
 
@@ -107,7 +107,7 @@ ul.navbar-nav {
 
 .content {
   margin-top: 0px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .col-md-7, .col-md-2 {
@@ -177,6 +177,10 @@ img.menu-image {
     margin-top: 6px;
     margin-right: 5px;
     color: #000000;
+}
+
+#credits {
+  margin-top: 80px;
 }
 
 #submissions {
