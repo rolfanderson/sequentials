@@ -10,15 +10,7 @@ p {
   font-weight: 500;
 }
 
-h1 {
-  font-family: 'Oswald', sans-serif;
-}
-
-h2 {
-
-}
-
-h3 {
+h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
 }
 
@@ -64,19 +56,25 @@ h5 {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    background-color: #424242;
-    color: #ffffff;
+  background-color: #424242;
+  color: #ffffff;
 }
 
-.dropdown-toggle:active, .open .dropdown-toggle {
-        background: #424242 !important;
-        color: #ffffff !important;
-    }
+ul.nav.navbar-nav .dropdown.open .dropdown-toggle{
+  color: #ffffff !important;
+  background-color: #424242 !important;
+}
+
+ul.nav.navbar-nav .dropdown-toggle:focus {
+  background-color: #757575 !important;
+  color: #ffffff !important;
+}
 
 .dropdown-menu {
   background-color: #EEEEEE;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  border: 0 !important;
 }
 
 .dropdown-menu > li > a:hover, a:focus {
@@ -104,13 +102,38 @@ ul.navbar-nav {
 }
 
 /**** Homepage ****/
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+}
+
+#disclaimer {
+
+}
+
 
 .content {
   margin-top: 0px;
   padding-bottom: 30px;
 }
 
-.col-md-7, .col-md-2 {
+.col-md-9, .col-md-3, .col-md-7, .col-md-2 {
   padding-right: 0 !important;
   padding-left: 0 !important;
 }
@@ -168,8 +191,7 @@ img.menu-image {
     display: block;
 }
 
-#archive li:before {
-    /*Using a Bootstrap glyphicon as the bullet point*/
+/*#archive li:before {
     content: "\e165";
     font-family: 'Glyphicons Halflings';
     font-size: 6px;
@@ -177,7 +199,7 @@ img.menu-image {
     margin-top: 6px;
     margin-right: 5px;
     color: #000000;
-}
+}*/
 
 #credits {
   margin-top: 80px;
