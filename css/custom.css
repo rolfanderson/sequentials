@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css?family=Tinos");
 
 p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Tinos', serif;
   font-size: 1.3em;
   font-weight: 500;
 }
@@ -133,10 +133,10 @@ ul.navbar-nav {
   padding-bottom: 15px;
 }
 
-.col-md-9, .col-md-3, .col-md-7, .col-md-2 {
+/*.col-md-9, .col-md-3, .col-md-7, .col-md-2 {
   padding-right: 0 !important;
   padding-left: 0 !important;
-}
+}*/
 
 .row {
   margin-right: 0;
@@ -210,6 +210,6 @@ img.menu-image {
 }
 
 #submissions li {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Tinos', serif;
   font-size: 1.2em;
 }
