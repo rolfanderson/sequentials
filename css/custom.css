@@ -22,7 +22,7 @@ h4 {
   margin-top: 0;
 }
 
-a:hover, h4:hover {
+a:hover {
   color: #0288D1;
   text-decoration: none;
 }
@@ -46,6 +46,7 @@ h5 {
   border: 0px;
   margin-bottom: 0;
   box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+  z-index: 9;
 }
 
 .navbar-toggle {
@@ -103,6 +104,31 @@ ul.navbar-nav {
 }
 
 /**** Homepage ****/
+.hp-background {
+  background-color: #F1F1F1;
+}
+
+.hp-contents {
+  background-color: #FFFFFF;
+  box-shadow: rgba(0,0,0,.2) 0 0 7px 0;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.hp-wrapper {
+  background-color: #FFFFFF;
+  box-shadow: rgba(0,0,0,.3) 0 0 5px 0;
+  padding: 8px;
+  padding-top: 13px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.hp-wrapper:hover {
+  box-shadow: rgba(0,0,0,.5) 0 0 10px 0;
+  cursor: pointer;
+}
+
 .vertical-alignment-helper {
     display:table;
     height: 100%;
@@ -152,6 +178,10 @@ ul.navbar-nav {
   padding: 0;
 }
 
+.no-pad {
+  padding-left: 0;
+}
+
 img.menu-image {
   width: 90%;
   float: left;
@@ -165,7 +195,6 @@ img.menu-image {
 
 .heading-divider {
   border-bottom: 2px solid #757575;
-  margin-bottom: 20px;
   padding-left: 0px;
 }
 
@@ -180,6 +209,10 @@ img.menu-image {
 
 #about {
   padding-bottom: 30px;
+}
+
+#archive {
+
 }
 
 #archive .heading-divider {
