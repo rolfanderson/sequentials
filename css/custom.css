@@ -58,8 +58,8 @@ h5 {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-  background-color: #424242;
-  color: #ffffff;
+  background-color: #424242 !important;
+  color: #ffffff !important;
 }
 
 ul.nav.navbar-nav .dropdown.open .dropdown-toggle{
@@ -112,7 +112,9 @@ ul.navbar-nav {
 .hp-contents {
   background-color: #FFFFFF;
   box-shadow: rgba(0,0,0,.2) 0 0 7px 0;
-  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
   margin-bottom: 20px;
 }
 
@@ -182,6 +184,7 @@ ul.navbar-nav {
 
 .no-pad {
   padding-left: 0;
+  padding-right: 0;
 }
 
 img.menu-image {
@@ -238,7 +241,7 @@ img.menu-image {
 }*/
 
 #credits {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 #submissions {
