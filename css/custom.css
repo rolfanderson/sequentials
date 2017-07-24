@@ -114,13 +114,13 @@ ul.navbar-nav {
   box-shadow: rgba(0,0,0,.2) 0 0 7px 0;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 5px;
+  padding-bottom: 1px;
   margin-bottom: 20px;
 }
 
 .hp-wrapper {
   background-color: #FFFFFF;
-  box-shadow: rgba(0,0,0,.3) 0 0 5px 0;
+
   padding: 8px;
   padding-top: 13px;
   margin-bottom: 30px;
@@ -207,8 +207,6 @@ img.menu-image {
   border-bottom: 1px solid #757575;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
   width: 35%
 }
 
