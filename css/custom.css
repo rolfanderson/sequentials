@@ -4,6 +4,10 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @import url("https://fonts.googleapis.com/css?family=Tinos");
 
+body {
+  background-color: #F1F1F1;
+}
+
 p {
   font-family: 'Tinos', serif;
   font-size: 1.3em;
@@ -34,7 +38,6 @@ h5 {
 }
 
 /**** Navbar ****/
-
 #navbar-content a {
   font-size: 16px;
   color: #ffffff;
@@ -105,10 +108,6 @@ ul.navbar-nav {
 }
 
 /**** Homepage ****/
-.hp-background {
-  background-color: #F1F1F1;
-}
-
 .hp-contents {
   background-color: #FFFFFF;
   box-shadow: rgba(0,0,0,.2) 0 0 7px 0;
@@ -120,7 +119,6 @@ ul.navbar-nav {
 
 .hp-wrapper {
   background-color: #FFFFFF;
-
   padding-bottom: 8px;
   padding-top: 13px;
   margin-bottom: 30px;
@@ -128,9 +126,6 @@ ul.navbar-nav {
 }
 
 .hp-wrapper:hover, .hp-wrapper:focus {
-  background-color: #FFFFFF;
-  /*box-shadow: rgba(0,0,0,.6) 0 0 10px 0;*/
-  /*border: solid 1px #E9E9E9;*/
   cursor: pointer;
 }
 
@@ -144,6 +139,7 @@ ul.navbar-nav {
     width: 100%;
     pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
 }
+
 .vertical-align-center {
     /* To center vertically */
     display: table-cell;
@@ -158,11 +154,6 @@ ul.navbar-nav {
     margin: 0 auto;
     pointer-events: all;
 }
-
-#disclaimer {
-
-}
-
 
 .content {
   margin-top: 0px;
