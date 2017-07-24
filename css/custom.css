@@ -101,6 +101,7 @@ ul.navbar-nav {
   height: 135px;
   padding: 3px;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 /**** Homepage ****/

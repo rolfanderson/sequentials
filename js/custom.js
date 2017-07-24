@@ -14,3 +14,9 @@ $(document).ready(function () {
     }
     document.onscroll = scroll;
 });
+
+jQuery(document).ready(function($) {
+    $(".clickable-row").click(function() {
+        window.location = $(this).data("href");
+    });
+});
