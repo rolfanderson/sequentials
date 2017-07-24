@@ -124,8 +124,8 @@ ul.navbar-nav {
   margin-top: 30px;
 }
 
-.hp-wrapper:hover {
-  box-shadow: rgba(0,0,0,.5) 0 0 10px 0;
+.hp-wrapper:hover, .hp-wrapper:focus {
+  box-shadow: rgba(0,0,0,.6) 0 0 10px 0;
   cursor: pointer;
 }
 
@@ -176,6 +176,7 @@ ul.navbar-nav {
 
 .text-column {
   padding: 0;
+  word-wrap: break-word;
 }
 
 .no-pad {
