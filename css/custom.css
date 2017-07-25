@@ -133,28 +133,6 @@ ul.navbar-nav {
   color: #0288D1;
 }
 
-.vertical-alignment-helper {
-    display:table;
-    height: 100%;
-    width: 100%;
-    pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
-}
-
-.vertical-align-center {
-    /* To center vertically */
-    display: table-cell;
-    vertical-align: middle;
-    pointer-events:none;
-}
-.modal-content {
-    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
-    width:inherit;
-    height:inherit;
-    /* To center horizontally */
-    margin: 0 auto;
-    pointer-events: all;
-}
-
 .content {
   margin-top: 0px;
   padding-bottom: 15px;
@@ -226,4 +204,25 @@ img.menu-image {
 #submissions li {
   font-family: 'Tinos', serif;
   font-size: 1.2em;
+}
+
+#snackbar {
+    min-width: 100%;
+    margin-left: -50%;
+    background-color: #333;
+    color: #fff;
+    border-radius: 0px;
+    padding: 8px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+    padding: 12px;
+}
+
+#hide {
+  text-decoration: underline;
+  font-weight: 500;
+  color: #42A5F5;
 }
