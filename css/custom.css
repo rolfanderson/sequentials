@@ -183,6 +183,10 @@ img.menu-image {
   padding-bottom: 30px;
 }
 
+#about .hp-wrapper {
+  padding-top: 20px;
+}
+
 #archive .heading-divider {
   border-bottom: 2px solid #757575;
   margin-bottom: 10px;
@@ -191,6 +195,11 @@ img.menu-image {
 
 #archive li {
     display: block;
+}
+
+#contact h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 #credits {
@@ -208,6 +217,7 @@ img.menu-image {
 
 #submissions h3 {
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 #snackbar {
