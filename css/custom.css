@@ -108,7 +108,7 @@ ul.navbar-nav {
 }
 
 /**** Homepage ****/
-.hp-contents {
+.hp-card {
   background-color: #FFFFFF;
   box-shadow: rgba(0,0,0,.2) 0 0 7px 0;
   padding-left: 15px;
@@ -204,10 +204,6 @@ img.menu-image {
 
 #about {
   padding-bottom: 30px;
-}
-
-#archive {
-
 }
 
 #archive .heading-divider {
