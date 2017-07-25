@@ -206,6 +206,10 @@ img.menu-image {
   font-size: 1.2em;
 }
 
+#submissions h3 {
+  margin-top: 10px;
+}
+
 #snackbar {
     min-width: 100%;
     margin-left: -50%;
