@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css?family=Tinos");
 
 body {
-  background-color: #F1F1F1;
+  background-color: #f2f2f3;
 }
 
 p {
@@ -108,6 +108,10 @@ ul.navbar-nav {
 }
 
 /**** Homepage ****/
+.clickable-row:hover, .clickable-row:focus {
+  cursor: pointer;
+}
+
 .hp-card {
   background-color: #FFFFFF;
   box-shadow: rgba(0,0,0,.2) 0 0 7px 0;
@@ -123,10 +127,6 @@ ul.navbar-nav {
   padding-top: 13px;
   margin-bottom: 30px;
   margin-top: 30px;
-}
-
-.hp-wrapper:hover, .hp-wrapper:focus {
-  cursor: pointer;
 }
 
 .hp-wrapper:hover h4, .hp-wrapper:focus h4 {
