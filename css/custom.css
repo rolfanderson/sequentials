@@ -240,4 +240,5 @@ img.menu-image {
   text-decoration: underline;
   font-weight: 500;
   color: #42A5F5;
+  cursor: pointer;
 }
