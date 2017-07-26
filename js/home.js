@@ -12,4 +12,4 @@ $(document).ready(function() {
 
 setTimeout(function() {
   $("#snackbar").fadeOut().empty();
-}, 7000);
+}, 9000);
