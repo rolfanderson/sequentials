@@ -11,5 +11,5 @@ $(document).ready(function() {
 });
 
 setTimeout(function() {
-  $("#snackbar").fadeOut().empty();
+  $("#snackbar").hide().empty();
 }, 9000);
