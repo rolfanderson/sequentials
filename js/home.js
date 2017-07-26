@@ -9,3 +9,7 @@ $(document).ready(function() {
         $("#snackbar").hide();
     });
 });
+
+setTimeout(function() {
+  $("#snackbar").fadeOut().empty();
+}, 7000);
