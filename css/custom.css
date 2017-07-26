@@ -53,7 +53,10 @@ h5 {
 }
 
 .navbar-toggle {
-  border-color: white !important;
+  border-color: #757575 !important;
+  background-color: #757575 !important;
+  margin-left: 5px;
+  float: left;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
