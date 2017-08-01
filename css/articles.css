@@ -20,6 +20,23 @@ p {
   padding-left: 15px !important;
 }
 
+.dropdown-menu {
+  background-color: #34302D;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  border: 0 !important;
+}
+
+.dropdown-menu > li > a:hover, a:focus {
+  background-color: #262321 !important;
+  color: #ffffff !important;
+}
+
+.dropdown-menu a {
+  color: #ffffff !important;
+  background-color: #34302D !important;
+}
+
 .menu-padding {
   padding-top: 50px;
   padding-bottom: 30px;
